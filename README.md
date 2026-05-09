@@ -99,17 +99,6 @@ jupyter notebook vit_cifar10_full.ipynb
 
 ---
 
-## Improvements & Next Steps
-
-- [ ] **Longer training**: 50–100 epochs with warm-up schedule
-- [ ] **Stronger augmentation**: AutoAugment / RandAugment / Mixup / CutMix
-- [ ] **Larger model**: Increase `embed_dim=256`, `depth=8`, `num_heads=8`
-- [ ] **Pre-training**: Load DeiT or ViT-S weights pre-trained on ImageNet
-- [ ] **Patch size 2×2**: More patches (256) → richer spatial information
-- [ ] **Label smoothing**: Add `label_smoothing=0.1` to CrossEntropyLoss
-
----
-
 ## Requirements
 
 ```
